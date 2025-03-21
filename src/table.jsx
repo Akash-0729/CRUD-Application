@@ -67,8 +67,8 @@ function Sample(xyz) {
                                     <td className="p-4">{i.Phone}</td>
                                     <td className="p-4">{i.Location}</td>
                                     <td className="p-4">
-                                        <Button className="bg-success border-0 ps-4 pe-4 me-2" onClick={() => xyz.editClick(i)}> Edit </Button>
-                                        <Button className="bg-danger border-0 ps-4 pe-4 ms-2" onClick={() => deleteUser(i.id)}> Delete </Button>
+                                        <Button className="bg-success border-0 ps-4 pe-4 m-2" onClick={() => xyz.editClick(i)}> Edit </Button>
+                                        <Button className="bg-danger border-0 ps-4 pe-4 m-2" onClick={() => deleteUser(i.id)}> Delete </Button>
                                     </td>
                                 </tr>
                             </>
